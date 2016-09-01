@@ -1,0 +1,35 @@
+/**
+ * 
+ */
+package arraytutorials;
+
+/**
+ * @author Richard Drexel
+ * @version 1.0
+ * @since 2016-9-1
+ * 
+ * <h1>Array Tutorial</h1>
+ * <p>Simple example of creating arrays in Java and some of the methods inherited with the Array class.</p>
+ * 
+ */
+
+
+public class ArrayTutorial1 {
+
+	
+	public static void main(String[] args) {
+		//Two ways to create arrays in java: int[] anArray; or int anArray[];
+		//Let's create the first array and insert some names in it. Say a list of student names.
+		
+		String[] classList; //Here I am simply creating the variable. 
+		
+		classList = new String[20]; //This is the actual array creation. The array is empty at the moment. 
+		
+		for(int index = 0; index < 20; index++){
+			System.out.print(classList[index] + ", ");
+		}
+		
+
+	}
+
+}
