@@ -4,7 +4,8 @@ package javaProgrammingExamples;
 /*Comparing performance of String, StringBuffer, and StringBuilder
  * Concatenating String and append method for StringBuffer and StringBuilder.
  * 
- * A new String object has to be instantiated every time a concatenation occurs. 
+ * A new String object has to be instantiated every time a concatenation occurs.
+ * This results in slower times and more memory used. 
  */
 
 public class StringPerformaceComparison {
