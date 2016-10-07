@@ -4,7 +4,7 @@ public class LinkedList {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		
+/*		
 		Node<String> node1 = new Node("David");
 		Node<String> node2 = new Node("Raymond");
 		Node<String> node3 = new Node("Cynthia");
@@ -23,5 +23,6 @@ public class LinkedList {
 			header = header.next;
 		}
 	}
+*/
 
-}
+}}
